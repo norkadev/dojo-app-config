@@ -1,0 +1,6 @@
+# Database connection settings
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/dojo_member
+    username: postgres
+    password: postgres
