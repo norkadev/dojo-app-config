@@ -11,7 +11,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/dojo_member
     username: postgres
-    password: '{cypher}29811496885823548d49fb7d94f510f63116eacf498b343e480e4339adb2de08'
+    password: '{cipher}29811496885823548d49fb7d94f510f63116eacf498b343e480e4339adb2de08'
   jpa:
     properties:
       hibernate:
