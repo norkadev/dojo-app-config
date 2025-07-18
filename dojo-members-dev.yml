@@ -10,7 +10,7 @@ spring:
     name: dojo-members
   datasource:
     url: '{cipher}'
-    username: '{cipher}xcvfdf'
+    username: '{cipher}xcvfrferfrdf'
     password: '{cipher}29811496885823548d49fb7d94f510f63116eacf498b343e480e4339adb2de08'
   jpa:
     properties:
