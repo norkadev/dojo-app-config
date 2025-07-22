@@ -10,7 +10,7 @@ spring:
     name: member-service
   datasource:
     url: '{cipher}03694e42ee7600ba46ba5328b850907e80db154dc96e13e5e23e065366831d2211110183c492ad9a4f455ffbca65b'
-    username: '{cipher}29811496885823548d49fb7d94f510f63116eacf498b343e480e4339adb2de08'
+    username: '{cipher}'
     password: '{cipher}29811496885823548d49fb7d94f510f63116eacf498b343e480e4339adb2de08'
   jpa:
     properties:
