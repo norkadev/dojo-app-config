@@ -1,1 +1,45 @@
+server:
+  port: 8080
 
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+
+spring:
+  application:
+    name: member-service
+  datasource:
+    url: jdbc:postgresql://member-db:5432/dojo_member
+    username: '{cipher}b79738f3081388c91113e4f74a64c996a86fce482ea1f7ca5a841a2bd5a9bfb5'
+    password: '{cipher}b79738f3081388c91113e4f74a64c996a86fce482ea1f7ca5a841a2bd5a9bfb5'
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+        use_sql_comments: true
+        show_sql: true
+    hibernate:
+      ddl-auto: none
+  data:
+    rest:
+      detection-strategy: ANNOTATED # Disable automatic repository REST exposure
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+  rabbitmq:
+    host: "localhost"
+    port: 5672
+    username: "guest"
+    password: "guest"
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
