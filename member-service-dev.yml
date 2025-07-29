@@ -9,7 +9,7 @@ spring:
   application:
     name: member-service
   datasource:
-    url: '{cipher}491aa212f2604ca2aa3e44bd87cbd1c57cae8d8d233d6063ac11965c01e74237ae98d2ffc945ec4435f8770dc589b5c9{cipher}743a854ca0e0684b48cbe04c66c9088762630174a015bb916eb5d826f6d868ebea84fc4fbaefe0e7ce76e44556faf3b8'
+    url: 'jdbc:postgresql://member-db:5432/dojo_member'
     username: '{cipher}b79738f3081388c91113e4f74a64c996a86fce482ea1f7ca5a841a2bd5a9bfb5'
     password: '{cipher}b79738f3081388c91113e4f74a64c996a86fce482ea1f7ca5a841a2bd5a9bfb5'
   jpa:
