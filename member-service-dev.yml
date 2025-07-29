@@ -9,9 +9,9 @@ spring:
   application:
     name: member-service
   datasource:
-    url: '{cipher}03694e42ee7600ba46ba5328b850907e80db154dc96e13e5e23e065366831d2211110183c492ad9a4f455ffbca65b'
-    username: '{cipher}29811496885823548d49fb7d94f510f63116eacf498b343e480e4339adb2de08'
-    password: '{cipher}29811496885823548d49fb7d94f510f63116eacf498b343e480e4339adb2de08'
+    url: '{cipher}b568d1fe3bb1ff6a2a65d21191935b4a315814671d7e273b639dcecabcdc7c4fc45fd2a2c5ac8eab00467463228eeb08'
+    username: '{cipher}b79738f3081388c91113e4f74a64c996a86fce482ea1f7ca5a841a2bd5a9bfb5'
+    password: '{cipher}b79738f3081388c91113e4f74a64c996a86fce482ea1f7ca5a841a2bd5a9bfb5'
   jpa:
     properties:
       hibernate:
