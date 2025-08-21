@@ -52,7 +52,7 @@ management:
 
 eureka:
   instance:
-    preferIpAdsress: true
+    preferIpAddress: true
   client:
     register-with-eureka: true
     fetch-registry: true
