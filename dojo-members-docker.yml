@@ -1,6 +1,0 @@
-# Database connection settings for Docker environment
-spring:
-  datasource:
-    url: jdbc:postgresql://member-db:5432/dojo_member
-    username: postgres
-    password: postgres
