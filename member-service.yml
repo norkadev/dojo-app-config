@@ -9,7 +9,7 @@ spring:
   application:
     name: member-service
   datasource:
-    url: jdbc:postgresql://member-db:5432/dojo_member
+    url: jdbc:postgresql://localhost:5432/member_db
     username: postgres
     password: postgres
   jpa:

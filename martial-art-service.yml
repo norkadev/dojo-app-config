@@ -9,7 +9,7 @@ spring:
   application:
     name: martial-art-service
   datasource:
-    url: jdbc:postgresql://martial-art-db:5433/dojo_martial_art
+    url: jdbc:postgresql://localhost:5433/martial_art_db
     username: postgres
     password: postgres
   jpa:
