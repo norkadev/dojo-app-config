@@ -9,3 +9,17 @@ eureka:
     fetch-registry: false
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+# Enable debug logging for config resolution
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+  level:
+    org:
+      springframework:
+        boot:
+          context:
+            config: DEBUG
+
+# Show all loaded properties
+debug: true

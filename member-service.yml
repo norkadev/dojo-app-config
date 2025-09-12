@@ -1,10 +1,6 @@
 server:
   port: 8081
 
-logging:
-  pattern:
-    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
-
 spring:
   application:
     name: member-service
@@ -64,3 +60,17 @@ info:
     name: Member Management
     description: Track dojo members, ranks, and attendance
     version: 1.0.0
+
+# Enable debug logging for config resolution
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+  level:
+    org:
+      springframework:
+        boot:
+          context:
+            config: DEBUG
+
+# Show all loaded properties
+debug: true

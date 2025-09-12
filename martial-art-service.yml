@@ -1,10 +1,6 @@
 server:
   port: 8181
 
-logging:
-  pattern:
-    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
-
 spring:
   application:
     name: martial-art-service
@@ -64,3 +60,17 @@ info:
     name: Martial Art Management
     description: Service for managing martial arts in the dojo
     version: 1.0.0
+
+# Enable debug logging for config resolution
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+  level:
+    org:
+      springframework:
+        boot:
+          context:
+            config: DEBUG
+
+# Show all loaded properties
+debug: true
