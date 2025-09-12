@@ -71,6 +71,19 @@ logging:
         boot:
           context:
             config: DEBUG
+    com:
+      norkadev:
+        member:
+          service:
+            clients: DEBUG
 
 # Show all loaded properties
 debug: true
+
+# Feign Configuration
+feign:
+  client:
+    config:
+      default:
+        connect-timeout: 5000
+        read-timeout: 5000
