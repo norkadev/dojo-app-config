@@ -9,9 +9,3 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:8070/eureka/
-
-info:
-  app:
-    name: ${spring.application.name}
-    description: Gateway Server
-    version: ${info.app.version:1.0.0}
